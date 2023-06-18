@@ -17,7 +17,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 printf("Last digit of %d is ", n);
-lastDigit = abs(n % 10); // Calculate the absolute value of the last digit
+lastDigit = abs(n % 10);
 printf("%d ", lastDigit);
 
 if (n < 0)
