@@ -8,16 +8,19 @@
 
 int main(void)
 {
-int i;
 putchar('0');
 
-for (i = 1; i <= 9; i++)
+for (int i = 1; i <= 8; i++)
 {
 putchar(',');
 putchar(' ');
-putchar('0' + i / 10);
-putchar('0' + i % 10);
-i++;
+
+for (int j = i + 1; j <= 9; j++)
+{
+putchar('0' + i + j);
+if (i != 8 || j != 9)
+putchar(',');
+}
 }
 
 return (0);
