@@ -18,7 +18,7 @@ printf("%2d", i * j);
 }
 else
 {
-printf("%3d", i * j);
+printf(i * j);
 }
 
 if (j != 9)
