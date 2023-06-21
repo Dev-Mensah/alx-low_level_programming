@@ -14,7 +14,7 @@ for (j = 0; j <= 9; j++)
 {
 if (i * j <= 9)
 {
-printf(" ")
+printf(" ");
 printf("%d, ", i * j);
 }
 else
