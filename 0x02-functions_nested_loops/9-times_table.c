@@ -12,13 +12,17 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-if (i * j <= 9)
+if (j <= 0)
+{
+printf("%d", i * j);
+}
+else if (i * j <= 9)
 {
 printf("%2d", i * j);
 }
 else
 {
-printf("%d",i * j);
+printf("%d", i * j);
 }
 
 if (j != 9)
