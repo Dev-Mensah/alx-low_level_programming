@@ -18,10 +18,14 @@ return (1);
 }
 else if (n == 0)
 {
+printf("0");
+fflush(stdout);
 return (0);
 }
 else
 {
+printf("-");
+fflush(stdout);
 return (-1);
 }
 }
