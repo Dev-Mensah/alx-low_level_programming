@@ -13,6 +13,7 @@ int print_sign(int n)
 if (n > 0)
 {
 printf("+");
+fflush(stdout);
 return (1);
 }
 else if (n == 0)
