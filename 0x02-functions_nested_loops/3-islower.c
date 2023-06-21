@@ -2,12 +2,14 @@
 #include <stdio.h>
 
 /**
- * _islower - print lower alphabets
+ * main - print lower alphabets
  *
  * Return: Always 0 (Success)
 */
 
-int _islower(int c)
+int main(void)
+{
+_islower(int c)
 {
 if (c >= 'a' && c <= 'z')
 {
@@ -17,4 +19,6 @@ else
 {
 return (0);
 }
+}
+return (0)
 }
