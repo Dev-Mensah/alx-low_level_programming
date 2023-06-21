@@ -12,9 +12,7 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-int sign = 1;
-printf("+%d\n", sign);
-return (0);
+return ("+%d\n", 1);
 }
 else if (n == 0)
 {
