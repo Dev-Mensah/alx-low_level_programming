@@ -12,7 +12,8 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-return (+1);
+char str[] = "+1";
+return (str);
 }
 else if (n == 0)
 {
