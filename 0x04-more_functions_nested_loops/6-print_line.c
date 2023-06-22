@@ -6,7 +6,7 @@
 
 /**
  * print_line - prints line in terminal
- * @n : character
+ * @n: integer
  *
  * _putchar: result, otherwise
  */
