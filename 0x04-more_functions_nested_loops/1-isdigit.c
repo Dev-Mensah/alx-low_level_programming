@@ -7,7 +7,6 @@
 
 /**
  * _isdigit - checks for a didgit
- *
  * @c: character to be checked
  *
  * Return: 1 if condition is true, 0 otherwise
@@ -23,5 +22,5 @@ else
 {
 return (0);
 }
-return (0)
+return (0);
 }
