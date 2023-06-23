@@ -3,6 +3,7 @@
  */
 
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_line - prints line in terminal
@@ -13,11 +14,10 @@
 void print_line(int n)
 {
 int i;
-
 if (n <= 0)
 {
 _putchar('\n');
-return (0);
+return ();
 }
 for (i = 0; i < n; i++)
 {
